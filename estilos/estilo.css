@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-color:rgb(27, 27, 27);
+    font-family: 'Francois One', sans-serif;
+}
+.cont {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.itcont1 #pic {
+    filter:drop-shadow(0 0 50px black);
+    filter:saturate(110%);
+    filter: brightness(108%);
+    border-radius:100px;
+}
+.itcont2 h1 {
+    text-transform:uppercase;
+    word-spacing: -10px;
+    font-size:55px;
+    color:rgb(0, 116, 136);
+}
+.itcont2 h2 {
+    color:rgb(0, 116, 136);
+}
+.itcont3 h3 {
+    color:rgb(0, 116, 136);
+}
+.itcont2 h1, .itcont2 h2, .itcont3 h3 {
+    text-align:center;
+}
+.itcont3 {
+    margin-top:80px;
+}
+.itcont3 h3{
+    margin-bottom:15px;
+}
