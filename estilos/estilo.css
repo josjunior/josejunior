@@ -10,7 +10,7 @@ body {
 .cont {
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items:center;
 }
 .itcont1 #pic {
@@ -20,23 +20,49 @@ body {
     border-radius:100px;
 }
 .itcont2 h1 {
-    text-transform:uppercase;
-    word-spacing: -10px;
+    word-spacing: -7px;
     font-size:55px;
     color:rgb(0, 116, 136);
 }
 .itcont2 h2 {
     color:rgb(0, 116, 136);
 }
-.itcont3 h3 {
+.contic{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+    width:100%;
+    height:auto;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.contic .ic {
+    margin-right:10px;
+    width:40px;
+    height:40px;
+}
+.contic h3 {
+    font-size:30px;
+    color:rgb(0, 116, 136);
+    padding-right:10px;
+}
+.itcont3 h4 {
     color:rgb(0, 116, 136);
 }
-.itcont2 h1, .itcont2 h2, .itcont3 h3 {
+.itcont2 h1, .itcont2 h2, .itcont3 h4 {
     text-align:center;
 }
 .itcont3 {
-    margin-top:80px;
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
 }
-.itcont3 h3{
+.itcont3 h4{
     margin-bottom:15px;
+    font-size:50px;
+    text-transform: uppercase;
 }
