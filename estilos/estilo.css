@@ -50,7 +50,6 @@ body {
     margin-top:50px;
     text-transform:uppercase;
 }
-
 .main-container .projects-container .boxs-projects-container {
     width:70%;
     height:auto;
@@ -62,37 +61,62 @@ body {
 }
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
     width:300px;
-    height:190px;
-    border-style:solid;
-    border-width:1px;
+    height:220px;
     margin-bottom:10px;
     text-align:center;
     border-radius:5px;
-    background-color:rgb(12, 12, 12);
+    background-color:rgb(0, 88, 104);
+}
+.box-title {
+    width:100%;
+    height:40px;
+}
+.box-img {
+    width:100%;
+    height:125px;
+}
+.box-description {
+    width:100%;
+    height:30px;
+}
+.box-link {
+    width:100%;
+    height:25px;
 }
 .boxs-projects-container p{
-    color:rgb(228, 228, 228);
-    padding-bottom:5px;
-    padding-top:5px;
-    font-size:16.50px;
+    color:rgb(18, 212, 247);
+    font-family: 'Dosis', sans-serif;
+    font-size:30px;
+    text-transform:uppercase;
+    text-align:center;
+}
+.boxs-projects-container .description-box-projects {
+    font-size:18px;
+}
+.box-2 p {
+    font-size:30px;
 }
 .images-projects {
-    width:100%;
+    width:98%;
     height:115px;
+    border-radius:5px;
 }
 .boxs-projects-container a:link {
+    font-family: 'Dosis', sans-serif;
     text-decoration:none;
-    font-size:20px;
-    color:rgb(189, 189, 189);
+    text-transform:uppercase;
+    font-size:15px;
+    color:rgb(1, 174, 204);
+    margin-left:215px;
 }
 .boxs-projects-container a:visited {
-    color:rgb(189, 189, 189);
+    color:rgb(1, 174, 204);
 }
 .boxs-projects-container a:hover {
-    color:white;
+    color:rgb(0, 217, 255);
 }
 .boxs-projects-container a:active {
-    color:white;
+    color:rgb(1, 174, 204);
 }
 
 .main-container .github-stats-container {
