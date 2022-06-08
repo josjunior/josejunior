@@ -212,7 +212,6 @@ body {
 }
 
 /* RESPONSIVIDADE EM TELAS DE 100 ATÉ 850 DE LARGURA */
-
 @media screen and (min-width:100px) and (max-width:600px){
     .main-container .image-container h1 {
         font-size:35px;
@@ -261,6 +260,26 @@ body {
         font-size:15px;
     }
 }
+/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 601 ATÉ 810 DE LARGURA */
+@media screen and (min-width:601px) and (max-width:810px){
+    .main-container .image-container h1 {
+        font-size:35px;
+        text-align:center;
+    }
+    .main-container .description-container h2 {
+        font-size:20px;
+        text-align:center;
+    }
+    .projects-container .text-projects-container h3 {
+        font-size:25px;
+        text-align:center;
+        margin-top:0;
+    }
+    .main-container .icons-container{
+        height:150px;
+    }
+}
+
 /* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 100 ATÉ 250 DE LARGURA */
 @media screen and (min-width:100px) and (max-width:250px){
     .main-container .icons-container{
@@ -328,24 +347,5 @@ body {
     }
     .box-icons-container .box-icons-text-links:active {
         font-size:20px;
-    }
-}
-/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 419 ATÉ 448 DE LARGURA */
-@media screen and (min-width:601px) and (max-width:810px){
-    .main-container .image-container h1 {
-        font-size:35px;
-        text-align:center;
-    }
-    .main-container .description-container h2 {
-        font-size:20px;
-        text-align:center;
-    }
-    .projects-container .text-projects-container h3 {
-        font-size:25px;
-        text-align:center;
-        margin-top:0;
-    }
-    .main-container .icons-container{
-        height:150px;
     }
 }
