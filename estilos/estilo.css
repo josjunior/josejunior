@@ -262,8 +262,8 @@ body {
     }
 }
 
-/* RESPONSIVIDADE EM TELAS DE 100 ATÉ 850 DE LARGURA */
-@media screen and (min-width:100px) and (max-width:379px){
+/* RESPONSIVIDADE EM TELAS DE 100 ATÉ 900 DE LARGURA */
+@media screen and (min-width:100px) and (max-width:900px){
     .main-container .icons-container{
         height:120px;
     }
