@@ -67,7 +67,7 @@ body {
 }
 .box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
     width:300px;
-    height:220px;
+    height:200px;
     margin-bottom:10px;
     text-align:center;
     border-radius:5px;
@@ -76,16 +76,18 @@ body {
 .box-title {
     width:100%;
     height:40px;
+    line-height:40px;
     font-family: 'Titillium Web', sans-serif; 
 }
 .box-img {
     width:100%;
-    height:125px;
+    height:115px;
 }
 .box-description {
     width:100%;
-    height:30px;
+    height:25px;
     font-family: 'Dosis', sans-serif;
+    padding-top:2px;
 }
 .box-links {
     display:flex;
@@ -94,6 +96,8 @@ body {
     width:100%;
     height:25px;
     font-family: 'Dosis', sans-serif;
+    padding-left:5px;
+    padding-right:5px;
 }
 .box-link-1 {
 }
@@ -207,9 +211,9 @@ body {
     padding-top:5px;
 }
 
-/* RESPONSIVIDADE EM TELAS DE 100 ATÉ 220 DE LARGURA */
+/* RESPONSIVIDADE EM TELAS DE 100 ATÉ 850 DE LARGURA */
 
-@media screen and (min-width:100px) and (max-width:850px){
+@media screen and (min-width:100px) and (max-width:600px){
     .main-container .image-container h1 {
         font-size:35px;
         text-align:center;
@@ -247,6 +251,15 @@ body {
     .box-icons-container .box-icons-text-links:link {
         font-size:15px;
     }
+    .box-icons-container .box-icons-text-links:visited {
+        font-size:15px;
+    }
+    .box-icons-container .box-icons-text-links:hover {
+        font-size:15px;
+    }
+    .box-icons-container .box-icons-text-links:active {
+        font-size:15px;
+    }
 }
 /* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 100 ATÉ 250 DE LARGURA */
 @media screen and (min-width:100px) and (max-width:250px){
@@ -265,6 +278,21 @@ body {
     .box-icons-container .box-icons-text-links:link {
         font-size:15px;
     }
+    .box-icons-container .box-icons-text-links:visited {
+        font-size:15px;
+    }
+    .box-icons-container .box-icons-text-links:hover {
+        font-size:15px;
+    }
+    .box-icons-container .box-icons-text-links:active {
+        font-size:15px;
+    }
+}
+/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 226 ATÉ 600 DE LARGURA */
+@media screen and (min-width:449px) and (max-width:600px){
+    .main-container .icons-container{
+        height:90px;
+    }
 }
 /* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 380 DE LARGURA */
 @media screen and (min-width:380px) and (max-width:400px){
@@ -278,9 +306,46 @@ body {
         height:130px;
     }
 }
-/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 226 ATÉ 250 DE LARGURA */
-@media screen and (min-width:449px) and (max-width:600px){
+/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 401 ATÉ 448 DE LARGURA */
+@media screen and (min-width:401px) and (max-width:448px){
     .main-container .icons-container{
-        height:90px;
+        height:110px;
+    }
+}
+/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 419 ATÉ 448 DE LARGURA */
+@media screen and (min-width:419px) and (max-width:448px){
+    .main-container .icons-container{
+        height:110px;
+    }
+    .box-icons-container .box-icons-text-links:link {
+        font-size:20px;
+    }
+    .box-icons-container .box-icons-text-links:visited {
+        font-size:20px;
+    }
+    .box-icons-container .box-icons-text-links:hover {
+        font-size:20px;
+    }
+    .box-icons-container .box-icons-text-links:active {
+        font-size:20px;
+    }
+}
+/* CORRIGINDO A PARTE DE BAIXO PARA TELAS DE 419 ATÉ 448 DE LARGURA */
+@media screen and (min-width:601px) and (max-width:810px){
+    .main-container .image-container h1 {
+        font-size:35px;
+        text-align:center;
+    }
+    .main-container .description-container h2 {
+        font-size:20px;
+        text-align:center;
+    }
+    .projects-container .text-projects-container h3 {
+        font-size:25px;
+        text-align:center;
+        margin-top:0;
+    }
+    .main-container .icons-container{
+        height:150px;
     }
 }
